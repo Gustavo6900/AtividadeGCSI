@@ -15,6 +15,7 @@ function somar() {
     // Verifica se os inputs são válidos
     if (isNaN(valor1) || isNaN(valor2)) {
         resultadoDiv.textContent = "Por favor, insira dois números válidos.";
+        document.getElementById("imagemSucesso").innerHTML = '<img src="images/certo.jpg" alt="Sucesso" width="200">';
         return;
     }
 
@@ -26,7 +27,5 @@ function somar() {
         imagem6.style.display = "block";
     } else if (resultado === 10) {
         imagem10.style.display = "block";
-    } else {
-        imagemPadrao.style.display = "block";
-    }
+    } 
 }
