@@ -1,6 +1,6 @@
 function somar() {
-    const valor1 = parseFloat(document.getElementById('valor1').value);
-    const valor2 = parseFloat(document.getElementById('valor2').value);
+    const valor1 = parseFloat(document.getElementById('1').value);
+    const valor2 = parseFloat(document.getElementById('2').value);
     const resultadoDiv = document.getElementById('resultado');
     const imagemDiv = document.getElementById('imagemTelaCheia');
 
