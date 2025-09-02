@@ -1,6 +1,5 @@
-        /* Oculta a imagem por padrão */
-        #imagemTelaCheia {
-            display: none; /* Escondida inicialmente */
+       .imagemTelaCheia {
+            display: none;
             position: fixed;
             top: 0;
             left: 0;
@@ -10,7 +9,7 @@
             z-index: 9999;
         }
 
-        #imagemTelaCheia img {
+        .imagemTelaCheia img {
             width: 100%;
             height: 100%;
             object-fit: cover;
