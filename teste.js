@@ -1,6 +1,8 @@
-function soma (a,b) {
-    const resultado = parseInt(a) + parseInt(b)
-    return resultado
-}
+function somar() {
+    const valor1 = parseFloat(document.getElementById('valor1').value);
+    const valor2 = parseFloat(document.getElementById('valor2').value);
 
-console.log(soma(3,3))
+
+    const resultado = valor1 + valor2;
+    document.getElementById('resultado').textContent = "Resultado: " + resultado;
+}
