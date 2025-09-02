@@ -1,5 +1,6 @@
+        /* Oculta a imagem por padrão */
         #imagemTelaCheia {
-            display: none;
+            display: none; /* Escondida inicialmente */
             position: fixed;
             top: 0;
             left: 0;
